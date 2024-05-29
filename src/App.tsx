@@ -1,25 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import CssBaseLine from "@mui/material/CssBaseline";
+import { ThemeProvider } from "@mui/material";
+import Theme from "./custom-theme/theme";
+import { AppRoutes } from "./routes";
+import { Toaster } from "sonner";
+import { useMediaQuery } from "@mui/material";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
+  const isSmallScreen = useMediaQuery("(max-width:728px)");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ThemeProvider theme={Theme}>
+        <CssBaseLine />
+        <Toaster
+          richColors
+          position="bottom-left"
+          visibleToasts={3}
+          toastOptions={{
+            style: {
+              width: isSmallScreen ? "90%" : "125%",
+            },
+          }}
+        />
+        <BrowserRouter>
+          <AppRoutes />
+        </BrowserRouter>
+      </ThemeProvider>
+    </>
   );
 }
 
