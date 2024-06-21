@@ -1,0 +1,20 @@
+{
+      "events": [
+        {
+          "id": 1,
+          "title": "Conferência de Tecnologia 2024",
+          "details": "Uma conferência para discutir as últimas tendências em tecnologia.",
+          "slug": "conferencia-tecnologia-2024",
+          "maximumAttendees": 500,
+          "idAttendee": [101, 102]
+        },
+        {
+          "id": 2,
+          "title": "Seminário de Inovação",
+          "details": "Um seminário interativo sobre inovação e criatividade no mundo dos negócios.",
+          "slug": "seminario-inovacao",
+          "maximumAttendees": 200,
+          "idAttendee": [103, 104]
+        }
+      ]
+}

@@ -2,17 +2,23 @@ import {createTheme} from '@mui/material'
 
 declare module '@mui/material/styles' {
     interface Palette {
-      bg:string;
+      bg:string,
+      text_white:string,
     }
   
     interface PaletteOptions {
-      bg?: string;
+      bg?: string,
+      text_white?:string,
     }
   }
 
 const theme = createTheme({
     palette:{
-        bg:'#121212'
+        bg:'#262626',
+        text_white:'#F6F6F6',
+        primary:{
+          main:'#5E259B'
+        }
     }
 
     });

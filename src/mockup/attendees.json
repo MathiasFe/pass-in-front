@@ -1,0 +1,36 @@
+{
+      "attendees": [
+            {
+              "id": 101,
+              "name": "João Silva",
+              "email": "joao.silva@email.com",
+              "CreatedAt": "2024-06-18T10:00:00Z",
+              "eventID": 1,
+              "checkIn": true
+            },
+            {
+              "id": 102,
+              "name": "Maria Oliveira",
+              "email": "maria.oliveira@email.com",
+              "CreatedAt": "2024-06-18T10:05:00Z",
+              "eventID": 1,
+              "checkIn": false
+            },
+            {
+              "id": 103,
+              "name": "Carlos Pereira",
+              "email": "carlos.pereira@email.com",
+              "CreatedAt": "2024-06-19T09:30:00Z",
+              "eventID": 2,
+              "checkIn": true
+            },
+            {
+              "id": 104,
+              "name": "Ana Costa",
+              "email": "ana.costa@email.com",
+              "CreatedAt": "2024-06-19T09:35:00Z",
+              "eventID": 2,
+              "checkIn": false
+            }
+          ]
+}
