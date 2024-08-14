@@ -5,7 +5,9 @@ import { ReactNode } from "react";
       
       children?: ReactNode;
       fullHeight?: Boolean;
+      spacing?:number,
       fullwidth?: Boolean;
+      container?:Boolean;
       backgroundColor?: string;
       sx?:SxProps;
     };

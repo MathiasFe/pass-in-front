@@ -1,11 +1,10 @@
-{
-      "events": [
+ [
         {
           "id": 1,
-          "title": "Conferência de Tecnologia 2024",
-          "details": "Uma conferência para discutir as últimas tendências em tecnologia.",
-          "slug": "conferencia-tecnologia-2024",
-          "maximumAttendees": 500,
+          "title": "Workshop de Design Thinking",
+          "details": "Uma oficina prática sobre metodologias de Design Thinking.",
+          "slug": "workshop-design-thinking",
+          "maximumAttendees": 150,
           "idAttendee": [101, 102]
         },
         {
@@ -15,6 +14,77 @@
           "slug": "seminario-inovacao",
           "maximumAttendees": 200,
           "idAttendee": [103, 104]
+        },
+        {
+          "id": 3,
+          "title": "Conferência de Tecnologia",
+          "details": "Discussões sobre as últimas tendências em tecnologia.",
+          "slug": "conferencia-tecnologia",
+          "maximumAttendees": 300,
+          "idAttendee": [105, 106, 107]
+        },
+        {
+          "id": 4,
+          "title": "Curso de Marketing Digital",
+          "details": "Curso intensivo sobre estratégias de marketing digital.",
+          "slug": "curso-marketing-digital",
+          "maximumAttendees": 100,
+          "idAttendee": [108, 109]
+        },
+        {
+          "id": 5,
+          "title": "Palestra sobre Sustentabilidade",
+          "details": "Palestra sobre práticas sustentáveis em empresas.",
+          "slug": "palestra-sustentabilidade",
+          "maximumAttendees": 250,
+          "idAttendee": [110, 111, 112]
+        },
+        {
+          "id": 6,
+          "title": "Hackathon de Inteligência Artificial",
+          "details": "Competição de desenvolvimento de soluções de IA.",
+          "slug": "hackathon-ia",
+          "maximumAttendees": 200,
+          "idAttendee": [113, 114, 115]
+        },
+        {
+          "id": 7,
+          "title": "Seminário de Finanças",
+          "details": "Exploração de técnicas modernas de gestão financeira.",
+          "slug": "seminario-financas",
+          "maximumAttendees": 150,
+          "idAttendee": [116, 117]
+        },
+        {
+          "id": 8,
+          "title": "Oficina de Programação para Iniciantes",
+          "details": "Introdução aos conceitos básicos de programação.",
+          "slug": "oficina-programacao",
+          "maximumAttendees": 100,
+          "idAttendee": [118, 119]
+        },
+        {
+          "id": 9,
+          "title": "Encontro de Desenvolvedores",
+          "details": "Networking e troca de conhecimentos entre desenvolvedores.",
+          "slug": "encontro-desenvolvedores",
+          "maximumAttendees": 350,
+          "idAttendee": [120, 121, 122]
+        },
+        {
+          "id": 10,
+          "title": "Workshop de UX Design",
+          "details": "Melhores práticas de design de experiência do usuário.",
+          "slug": "workshop-ux-design",
+          "maximumAttendees": 180,
+          "idAttendee": [123, 124, 125]
+        },
+        {
+          "id": 11,
+          "title": "Conferência de Segurança da Informação",
+          "details": "Discussão sobre as mais recentes ameaças e soluções em segurança digital.",
+          "slug": "conferencia-seguranca",
+          "maximumAttendees": 220,
+          "idAttendee": [126, 127, 128]
         }
       ]
-}

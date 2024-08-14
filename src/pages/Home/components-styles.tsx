@@ -34,7 +34,7 @@ export const CustomDivider = styled("hr")(
     width: width,
     background: theme?.palette.primary.main,
     border: "none",
-    borderBottom: `2px solid ${theme?.palette.primary.main}`,
+    borderBottom: `1.5px solid ${theme?.palette.primary.main}`,
     boxShadow: `0px 0px 2px .1px ${theme?.palette.primary.main}`,
     marginTop: "1.5rem",
     marginBottom: "1.5rem",

@@ -3,17 +3,20 @@ import { CustomContainer } from "./style";
 
 export const ContainerComponent = ({
   children,
-  fullHeight,
-  fullwidth,
+  spacing = 0,
+  fullHeight = true,
+  fullwidth = true,
+  container = true,
   backgroundColor,
   sx = {},
 }: Tcontainer) => {
   return (
     <CustomContainer
-      fullHeight
-      fullwidth
+      spacing={spacing}
+      fullHeight={fullHeight}
+      fullwidth={fullwidth}
       backgroundColor={backgroundColor}
-      container
+      container={container}
       sx={sx}
     >
       {children}
